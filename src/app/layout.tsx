@@ -15,9 +15,13 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+const title =
+  process.env.NODE_ENV === "development" ? "EpicScript (dev)" : "EpicScript";
+
 export const metadata: Metadata = {
-  title: "epicscript",
-  description: "A new way of writing scripts for your videos",
+  title,
+  description:
+    "A new way of writing scripts for your videos without countless hours of research",
 };
 
 export default function RootLayout({

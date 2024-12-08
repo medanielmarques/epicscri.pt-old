@@ -10,6 +10,7 @@ export default function Home() {
             A new way of writing scripts for your videos
           </span>
         </h1>
+
         <EmailForm />
       </div>
     </main>
